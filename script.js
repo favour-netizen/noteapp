@@ -207,6 +207,7 @@ searchInput.addEventListener("input", function () {
 
             note.className = "note";
 
+            
 
             note.innerHTML = `
                 <h3>${notes[i].title}</h3>

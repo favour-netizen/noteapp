@@ -99,6 +99,7 @@ h1 {
     background-color: red;
     color: white;
     border: none;
+    
     padding: 7px 12px;
     cursor: pointer;
 }
