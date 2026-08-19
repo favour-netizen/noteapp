@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.small-text {
+    text-align: center;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+
+.note-form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+.note-form h2 {
+    margin-top: 0;
+}
+
+#noteTitle {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#noteText {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#saveBtn {
+    padding: 10px 20px;
+    background-color: #444444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#saveBtn:hover {
+    background-color: black;
+}
+
+#totalNotes {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.note {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid #cccccc;
+}
+
+.note h3 {
+    margin-top: 0;
+}
+
+.note p {
+    white-space: pre-wrap;
+}
+
+.edit-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+.no-notes {
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+}
+
+@media (max-width: 500px) {
+
+    .container {
+        width: 92%;
+        margin-top: 15px;
+    }
+
+}

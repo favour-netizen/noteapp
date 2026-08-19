@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>My Notes</h1>
+        <p class="small-text">Write down anything you want!</p>
+
+        <!-- Search -->
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search your notes..."
+        >
+
+        <!-- Note Form -->
+        <div class="note-form">
+
+            <h2 id="formTitle">Add a New Note</h2>
+
+            <input
+                type="text"
+                id="noteTitle"
+                placeholder="Note title"
+            >
+
+            <textarea
+                id="noteText"
+                placeholder="Write your note here..."
+            ></textarea>
+
+            <button id="saveBtn">Save Note</button>
+
+        </div>
+
+        <!-- Total Notes -->
+        <p id="totalNotes">Total Notes: 0</p>
+
+        <!-- Notes -->
+        <div id="notesList"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
