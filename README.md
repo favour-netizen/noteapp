@@ -1,5 +1,7 @@
 # Esut ict hub mini project on Note application
 
+#**Live Demo:** https://noteminiapp.netlify.app
+
 ## About
 
 This is a simple note-taking application built with HTML, CSS, and JavaScript. It allows users to create and manage personal notes directly in their web browser.
